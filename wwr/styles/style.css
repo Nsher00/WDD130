@@ -1,6 +1,19 @@
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img{
+    border: 10px solid darkolivegreen;
+}
+
+.main-title{
+    margin-top: 10px;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav a{
@@ -8,6 +21,7 @@ nav a{
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -28,14 +42,23 @@ main section{
 
 body{
     background-color: burlywood;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
     background-color: darkolivegreen;
+    font-family: 'Grape Nuts', cursive;
 }
 
 footer{
     background-color: darkolivegreen;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 nav a:hover{
@@ -44,15 +67,18 @@ nav a:hover{
 }
 
 .book, .join{
-    color: beige;
-    background-color: brown;
+    color: navy;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-    color: black;
-    background-color: beige;
+    color: beige;
+    background-color: brown;
 }
 
 #background{
@@ -61,22 +87,29 @@ nav a:hover{
 
 .msg{
     background-color: beige;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .home-title{
     color: black;
+    font-size: 2em;
 }
 
 h4{
     color: black;
+    
 }
 
 .msg h2{
     color:black;
+    font-family: 'Grape Nuts', cursive;
 }
 
-.message p {
+.msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -96,10 +129,12 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px;
+    border-radius: 50px;
 }
 
 #hero-img{
@@ -109,3 +144,16 @@ footer a:hover{
 footer h3 a:hover{
     text-decoration: underline;
 }
+
+#logo-link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
