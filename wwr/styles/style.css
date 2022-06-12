@@ -101,8 +101,9 @@ nav a:hover{
 }
 
 .home-title{
-    color: black;
-    font-size: 2em;
+    color: white;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4{
@@ -189,6 +190,8 @@ nav {
 
 #hero-msg h4 {
     color: white;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 2em;
 }
 
 #hero-msg {
