@@ -330,6 +330,7 @@ nav {
     width: 75%;
     justify-content: center;
     grid-column: 2/5;
+    font-size: large;
 }
 
 .card-3 img{
